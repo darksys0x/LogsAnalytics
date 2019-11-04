@@ -1,0 +1,153 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20191015.173731.21039.0.001.json",
+    "dumpEventTime": "2019-10-15T17:37:31Z",
+    "dumpEventTimeStamp": "1571150252033",
+    "processId": 21039,
+    "cwd": "/Users/mac/Desktop/LogsServer",
+    "commandLine": [
+      "/usr/local/Cellar/node/12.10.0/bin/node",
+      "server.js"
+    ],
+    "nodejsVersion": "v12.10.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "darwin",
+    "componentVersions": {
+      "node": "12.10.0",
+      "v8": "7.6.303.29-node.16",
+      "uv": "1.31.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.10.0/node-v12.10.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.10.0/node-v12.10.0.tar.gz"
+    },
+    "osName": "Darwin",
+    "osRelease": "19.0.0",
+    "osVersion": "Darwin Kernel Version 19.0.0: Wed Sep 25 20:18:50 PDT 2019; root:xnu-6153.11.26~2/RELEASE_X86_64",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz",
+        "speed": 2900,
+        "user": 5077200,
+        "nice": 0,
+        "sys": 3318580,
+        "idle": 15237170,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz",
+        "speed": 2900,
+        "user": 2143140,
+        "nice": 0,
+        "sys": 1099120,
+        "idle": 20389590,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz",
+        "speed": 2900,
+        "user": 5255550,
+        "nice": 0,
+        "sys": 2915960,
+        "idle": 15460350,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz",
+        "speed": 2900,
+        "user": 1936000,
+        "nice": 0,
+        "sys": 989510,
+        "idle": 20706340,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 1
+      },
+      {
+        "name": "en1",
+        "internal": false,
+        "mac": "20:c9:d0:c0:38:97",
+        "address": "fe80::1ccb:8111:42b3:1d68",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 4
+      },
+      {
+        "name": "en1",
+        "internal": false,
+        "mac": "20:c9:d0:c0:38:97",
+        "address": "2001:16a2:675:ac00:835:507a:62e4:de92",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "en1",
+        "internal": false,
+        "mac": "20:c9:d0:c0:38:97",
+        "address": "2001:16a2:675:ac00:a0ed:89a5:a653:9be4",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "en1",
+        "internal": false,
+        "mac": "20:c9:d0:c0:38:97",
+        "address": "192.168.100.133",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "awdl0",
+        "internal": false,
+        "mac": "66:51:4c:32:ba:42",
+        "address": "fe80::6451:4cff:fe32:ba42",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "famil

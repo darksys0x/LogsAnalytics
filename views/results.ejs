@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <% for(var i = 0; i < search.length; i++){%>
+                <th><%=search[i]%></th>
+            <%}%>
+        </tr>
+
+        <% for(var i = 0; i < results.length; i++){%>
+            <tr>
+                <% search.forEach(function(el){%>
+                        <td><%= results[i][el] %></td>
+                    <%})%>
+            </tr>
+        <%}%>
+    </table>
+</body>
+</html>
