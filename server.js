@@ -61,7 +61,7 @@ app.get("/", function (req, res) {
         };
         var rsu = []
         for (var i = 0; i < dataArray.length; i++) {
-            if (dataArray[i][0].includes('00:00:00') && dataArray[i][0].includes('POST') && dataArray[i][0].includes('=mowe.gov.sa')) {
+            if (dataArray[i][0].includes('00:00:00') && dataArray[i][0].includes('POST') && dataArray[i][0].includes('=hh.lov.da')) {
                 rsu.push(dataArray[i])
             }
         }
