@@ -1,2 +1,2 @@
-# LogsAnalytics
+# Logs-Analytics
 
